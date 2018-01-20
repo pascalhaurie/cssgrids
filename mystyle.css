@@ -1,9 +1,13 @@
 .wrapper {
     display: grid;
     grid-gap: 20px;
-    grid-template-areas: "header  header  header" "sidebar content content" "footer  footer  footer";
+    grid-template-areas: "header  header  header" "menubar menubar menubar" "sidebar content content" "footer  footer  footer";
     background-color: #fff;
     color: #444;
+}
+
+.menubar {
+    grid-area: menubar;
 }
 
 .sidebar {
